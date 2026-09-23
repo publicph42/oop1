@@ -1,0 +1,8 @@
+C:\Users\test\Documents\Adobe\oop1\object1\eTicaret\bin\Debug\eTicaret.exe.config
+C:\Users\test\Documents\Adobe\oop1\object1\eTicaret\bin\Debug\eTicaret.exe
+C:\Users\test\Documents\Adobe\oop1\object1\eTicaret\bin\Debug\eTicaret.pdb
+C:\Users\test\Documents\Adobe\oop1\object1\eTicaret\obj\Debug\eTicaret.csproj.AssemblyReference.cache
+C:\Users\test\Documents\Adobe\oop1\object1\eTicaret\obj\Debug\eTicaret.csproj.CoreCompileInputs.cache
+C:\Users\test\Documents\Adobe\oop1\object1\eTicaret\obj\Debug\eTicaret.exe
+C:\Users\test\Documents\Adobe\oop1\object1\eTicaret\obj\Debug\eTicaret.pdb
+C:\Users\test\Documents\Adobe\oop1\object1\eTicaret\obj\Debug\eTicaret.exe.config

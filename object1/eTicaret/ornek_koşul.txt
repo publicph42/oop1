@@ -1,0 +1,57 @@
+E-Ticaret Sipariş Onay ve Kargo Ücreti Hesaplama
+
+Bir e-ticaret sisteminde kullanıcının siparişinin onaylanması ve kargo ücretinin belirlenmesi için aşağıdaki kuralları çalıştıran bir C# programı yazınız.
+
+Kullanıcıdan şu 3 girdi alınacaktır:
+
+    Sepet Tutarı (double)
+
+    Kullanıcı Üyelik Tipi (string -> "Premium" veya "Standart")
+
+    Teslimat Bölgesi (string -> "YurtIci" veya "YurtDisi")
+
+Kurallar ve Mantıksal Akış (Nested Şartlar)
+
+    Ana Kontrol (Sepet Tutarı):
+
+        Sepet tutarı 0 veya negatifse: "Geçersiz sepet tutarı! Sipariş oluşturulamaz." mesajı verilip işlem sonlandırılmalıdır.
+
+        Sepet tutarı pozitifse sipariş onay sürecine geçilir.
+
+    İç Kontrol 1 (Teslimat Bölgesi):
+
+        Eğer "YurtIci" ise:
+
+            İç Kontrol 2 (Üyelik Tipi):
+
+                "Premium" üye ise: Sepet tutarına bakılmaksızın kargo ücretsizdir (0 TL).
+
+                "Standart" üye ise:
+
+                    Sepet tutarı 500 TL ve üzeri ise: Kargo ücretsizdir (0 TL).
+
+                    Sepet tutarı 500 TL altı ise: Kargo ücreti 45 TL olarak yansıtılır.
+
+                Farklı bir üyelik tipi girilmişse: "Geçersiz üyelik tipi!" uyarısı verilir.
+
+        Eğer "YurtDisi" ise:
+
+            İç Kontrol 2 (Üyelik Tipi):
+
+                "Premium" üye ise:
+
+                    Sepet tutarı 2000 TL ve üzeri ise: Kargo 100 TL (indirimli).
+
+                    Sepet tutarı 2000 TL altı ise: Kargo 250 TL.
+
+                "Standart" üye ise:
+
+                    Sepet tutarına bakılmaksızın sabit 350 TL kargo ücreti alınır.
+
+                Farklı bir üyelik tipi girilmişse: "Geçersiz üyelik tipi!" uyarısı verilir.
+
+        Bölge bu ikisinden farklıysa: "Geçersiz teslimat bölgesi!" uyarısı verilir.
+
+    Çıktı:
+
+        Bilgiler geçerliyse ekrana: Sepet Tutarı, Kargo Ücreti ve Ödenecek Toplam Tutar (Sepet + Kargo) formatlı şekilde yazdırılmalıdır.
