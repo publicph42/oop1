@@ -13,11 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week3", "week3", "{48DA507A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week3", "week3\week3.csproj", "{97C96ADA-0787-402C-8BE5-6EFE25B74E6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "overloading", "overloading\overloading.csproj", "{E418795D-F358-4DAB-8E3F-5A0230589406}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overloading", "overloading\Overloading.csproj", "{E418795D-F358-4DAB-8E3F-5A0230589406}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ref", "Ref\Ref.csproj", "{02C5A768-89E8-4646-92FB-94540A8498D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OUT-SendingMultipleValuesUsingOut", "OUT-SendingMultipleValuesUsingOut\OUT-SendingMultipleValuesUsingOut.csproj", "{50C7B14A-9CBA-4392-91AC-10BD8326E32A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Out", "OUT-SendingMultipleValuesUsingOut\Out.csproj", "{50C7B14A-9CBA-4392-91AC-10BD8326E32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "In", "In\In.csproj", "{D7B3351D-3D4E-4285-876F-FA74CFCA284A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{50C7B14A-9CBA-4392-91AC-10BD8326E32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50C7B14A-9CBA-4392-91AC-10BD8326E32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50C7B14A-9CBA-4392-91AC-10BD8326E32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B3351D-3D4E-4285-876F-FA74CFCA284A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B3351D-3D4E-4285-876F-FA74CFCA284A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B3351D-3D4E-4285-876F-FA74CFCA284A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B3351D-3D4E-4285-876F-FA74CFCA284A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{E418795D-F358-4DAB-8E3F-5A0230589406} = {48DA507A-7B0D-4564-BD10-BE584CF82313}
 		{02C5A768-89E8-4646-92FB-94540A8498D6} = {48DA507A-7B0D-4564-BD10-BE584CF82313}
 		{50C7B14A-9CBA-4392-91AC-10BD8326E32A} = {48DA507A-7B0D-4564-BD10-BE584CF82313}
+		{D7B3351D-3D4E-4285-876F-FA74CFCA284A} = {48DA507A-7B0D-4564-BD10-BE584CF82313}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEF74FAB-B9B2-4501-AEA3-4930686145B0}
