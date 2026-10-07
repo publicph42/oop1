@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\test\\Documents\\Adobe\\phh\\oop1\\object1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50C7B14A-9CBA-4392-91AC-10BD8326E32A}|OUT-SendingMultipleValuesUsingOut\\OUT-SendingMultipleValuesUsingOut.csproj|c:\\users\\test\\documents\\adobe\\phh\\oop1\\object1\\out-sendingmultiplevaluesusingout\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C7B14A-9CBA-4392-91AC-10BD8326E32A}|OUT-SendingMultipleValuesUsingOut\\OUT-SendingMultipleValuesUsingOut.csproj|solutionrelative:out-sendingmultiplevaluesusingout\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02C5A768-89E8-4646-92FB-94540A8498D6}|Ref\\Ref.csproj|c:\\users\\test\\documents\\adobe\\phh\\oop1\\object1\\ref\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02C5A768-89E8-4646-92FB-94540A8498D6}|Ref\\Ref.csproj|solutionrelative:ref\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E418795D-F358-4DAB-8E3F-5A0230589406}|overloading\\overloading.csproj|c:\\users\\test\\documents\\adobe\\phh\\oop1\\object1\\overloading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E418795D-F358-4DAB-8E3F-5A0230589406}|overloading\\overloading.csproj|solutionrelative:overloading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -36,18 +44,44 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\test\\Documents\\Adobe\\phh\\oop1\\object1\\OUT-SendingMultipleValuesUsingOut\\Program.cs",
+              "RelativeDocumentMoniker": "OUT-SendingMultipleValuesUsingOut\\Program.cs",
+              "ToolTip": "C:\\Users\\test\\Documents\\Adobe\\phh\\oop1\\object1\\OUT-SendingMultipleValuesUsingOut\\Program.cs",
+              "RelativeToolTip": "OUT-SendingMultipleValuesUsingOut\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T12:17:25.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\test\\Documents\\Adobe\\phh\\oop1\\object1\\Ref\\Program.cs",
+              "RelativeDocumentMoniker": "Ref\\Program.cs",
+              "ToolTip": "C:\\Users\\test\\Documents\\Adobe\\phh\\oop1\\object1\\Ref\\Program.cs",
+              "RelativeToolTip": "Ref\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T12:07:22.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\test\\Documents\\Adobe\\phh\\oop1\\object1\\overloading\\Program.cs",
               "RelativeDocumentMoniker": "overloading\\Program.cs",
               "ToolTip": "C:\\Users\\test\\Documents\\Adobe\\phh\\oop1\\object1\\overloading\\Program.cs",
               "RelativeToolTip": "overloading\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwDYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-07T11:37:10.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\test\\Documents\\Adobe\\phh\\oop1\\object1\\week3\\Program.cs",
               "RelativeDocumentMoniker": "week3\\Program.cs",
@@ -60,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\test\\Documents\\Adobe\\phh\\oop1\\object1\\eTicaret\\Program.cs",
               "RelativeDocumentMoniker": "eTicaret\\Program.cs",
@@ -73,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\test\\Documents\\Adobe\\phh\\oop1\\object1\\week2\\Program.cs",
               "RelativeDocumentMoniker": "week2\\Program.cs",

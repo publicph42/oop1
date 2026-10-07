@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace overloading
+namespace Overloading
 {
     internal class Program
     {
@@ -36,7 +36,7 @@ namespace overloading
         {
             Console.WriteLine(input);
         }
-        static void EkranaYazdir(int number1, int number2
+        static void EkranaYazdir(int number1, int number2)
         {
             Console.WriteLine(number1 + number2);
         }
