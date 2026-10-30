@@ -1,0 +1,23 @@
+ATM Para Çekme ve Günlük Limit Takip Simülasyonu
+
+Bir banka ATM'sinde müşterinin para çekme işlemlerini yöneten, limit kontrolü yapan ve gün sonunda banknot dağılımını raporlayan bir konsol uygulaması yazılması istenmektedir.
+
+
+    Aşama 1: Kullanıcıdan PIN kodu alma. Kullanıcı hatalı girse bile işlem ekranı en az 1 kez açılmalı, en fazla 3 deneme hakkı tanınmalıdır.
+
+    Aşama 2 : Para çekme döngüsü. Kullanıcı bakiyesi yettiği ve günlük limit aşılmadığı sürece kullanıcı "Çıkış" (0) diyene kadar para çekmeye devam edebilmelidir (adım sayısı belirsiz koşullu akış).
+
+    Aşama 3 : Çekilen toplam paranın banknot dağılımını hesaplama. Belirli ve sabit banknot değerleri dizisi ([200, 100, 50, 20, 10]) üzerinde dönülerek kaçar adet verileceği hesaplanmalıdır (sabit boyutlu koleksiyon iterasyonu).
+
+Soru Metni ve Kurallar
+
+Kullanıcı için başlangıç verileri:
+
+    Doğru PIN: "1234" (3 deneme hakkı)
+
+    Hesap Bakiyesi: 5000 TL
+
+    Günlük Çekim Limiti: 3000 TL
+
+    Geçerli Banknotlar: 200, 100, 50, 20, 10 TL
+
