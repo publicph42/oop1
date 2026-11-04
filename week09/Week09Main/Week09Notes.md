@@ -1,0 +1,1 @@
+Katilimda constructor davranisi. Base ve derived constructorlar cikicak
