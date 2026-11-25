@@ -22,6 +22,10 @@ public abstract class Calisanlar
     {
         Maas += valueToAdd;
     }
+    public virtual void MesaiBaslat()
+    {
+        Console.WriteLine($"Mesai baslatildi");
+    }
 }
 public class Yazilimci : Calisanlar
 {

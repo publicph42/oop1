@@ -1,0 +1,1 @@
+abstract methodlarin body kismi bos olur

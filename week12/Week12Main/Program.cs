@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+namespace Week12Main;
+
+public class Program
+{
+    static void Main(string[] args)
+    {
+        List<Sekil> sekiller = new List<Sekil>
+        {
+            new Kare(ConsoleColor.Magenta),
+            new Daire(),
+            new Ucgen(ConsoleColor.DarkRed)
+        };
+        foreach(Sekil s in sekiller)
+        {
+            s.Ciz();
+            s.BilgiYazdir();
+        }
+    }
+}
